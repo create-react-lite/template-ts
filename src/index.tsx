@@ -6,8 +6,9 @@ import "./index.css";
 const App = () => {
   return (
     <>
-      <div>Your create-react-lite application is ready.</div>
+      <div styleName="best">Your create-react-lite application is ready.</div>
       <Counter />
+      <p>Mode: {process.env.NODE_ENV}</p>
     </>
   );
 };
